@@ -11,8 +11,8 @@ let money = prompt("Ваш бюджет на месяц?", ""),
     expensesAnswer = prompt("Введите обязательную статью расходов в этом месяце", ""),
     expensesSum = +prompt("Во сколько обойдется?", "");
 
-    appData.expenses[expensesAnswer] = expensesSum;
+appData.expenses[expensesAnswer] = expensesSum;
 
-    alert("Ваш бюджет на один день равен " + (appData.budget - appData.expenses.expensesSum) / 30);
+alert("Ваш бюджет на один день равен " + (appData.budget - appData.expenses.expensesSum) / 30);
 
-    console.log(appData);
+console.log(appData);
