@@ -8,7 +8,7 @@ let appData = {
         income: [],
         savings: false
     };
-let questionCounter = 0;
+// let questionCounter = 0;
 
 for (let i = 0; i < 2; i++) {
     let expensesAnswer = prompt("Введите обязательную статью расходов в этом месяце", ""),
